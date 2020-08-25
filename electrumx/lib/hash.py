@@ -33,7 +33,7 @@ from electrumx.lib.util import bytes_to_int, int_to_bytes, hex_to_bytes
 
 _sha256 = hashlib.sha256
 _new_hash = hashlib.new
-_hmac_digest = hmac.digest
+_hmac_digest = hmac.new
 HASHX_LEN = 11
 
 
